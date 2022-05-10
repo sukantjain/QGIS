@@ -13,4 +13,4 @@ for layer in root.children():
       params = {'INPUT_RASTER': layer.name(), 'RASTER_BAND': 1, 'INPUT_VECTOR': 'India_state_updated', 'COLUMN_PREFIX': prefix+'_', 'STATISTICS' : [2]}
       processing.run("qgis:zonalstatistics", params)
 	  
-print ("task completed")
+print ("task completed, Thank You")
